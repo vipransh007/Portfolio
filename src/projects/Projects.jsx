@@ -23,7 +23,7 @@ const ProjectItem = ({ title, description, imageSrc, captionText, accessLink, re
         <SplitText
           text={description} 
           className="text-lg text-gray-300" 
-          delay={50} 
+          delay={10} 
         />
         
         {/* Project Link */}
@@ -47,6 +47,7 @@ const ProjectItem = ({ title, description, imageSrc, captionText, accessLink, re
         <TiltedCard 
           captionText={captionText} 
           imageSrc={imageSrc}
+          imageWidth="500px"
         />
       </div>
     );
@@ -76,7 +77,7 @@ function Projects() {
       { 
           text: 'TranZieee', 
           description: '🖼️ **Secure, Scalable Microservice for Computer Vision & E-commerce.** This MERN application implements a **dedicated image processing microservice** using **Node.js workers** to handle resource-intensive, **non-blocking background removal** tasks (potentially leveraging OpenCV or similar libraries). The system integrates a certified **third-party payment gateway (e.g., Stripe/PayPal)** for secure transaction processing, complete with a relational **credit consumption model** implemented in MongoDB, demonstrating a mastery of both **API security (OAuth/SSL)** and **e-commerce logistics**.', 
-          image: '/profilePhoto.jpg',
+          image: '/bgremover.jpg',
           accessLink: 'https://react-job-portal-main-2k5s.vercel.app/login'
       },
       { 
