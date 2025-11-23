@@ -95,9 +95,9 @@ function Projects() {
     ];
 
     return (
-      <div className='max-w-7xl mx-auto'>
+      <div className='max-w-screen p-5 mx-auto'>
         {/* Main Heading */}
-        <TextPressure text="My Projects" className="text-4xl font-bold text-center text-white my-20" />
+        <TextPressure text="My  Projects" className="text-4xl font-bold text-center text-white my-10" />
         
         {/* Project List Container */}
         <div className='p-8'> 

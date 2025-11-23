@@ -19,7 +19,7 @@ const TextPressure = ({
 
   textColor = '#FFFFFF',
   strokeColor = '#FF0000',
-  strokeWidth = 2,
+  strokeWidth = 5,
   className = '',
 
   minFontSize = 24

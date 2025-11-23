@@ -80,7 +80,7 @@ function Skills() {
 
   return (
     <div className='bg-black flex flex-col justify-center text-center text-white min-h-screen p-10'>
-      <TextPressure text="My Skill sets" className="text-6xl text-center mb-10" />
+      <TextPressure text="My Skill sets" className="text-6xl text-center" />
       <div>
         <SplitText text="Please Hold And Rotate The Globe Below 👇"
         className="pt-10 my-auto py-20 text-gray-500 text-center text-xl "
